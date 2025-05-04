@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-  
 
     // Keyboard navigation
     toggle.addEventListener("keydown", (e) => {
@@ -51,13 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-
     function highlightItem() {
       items.forEach(item => item.classList.remove("active"));
       items[selectedIndex].classList.add("active");
-      
 
         }
-       
 
 });
